@@ -19,6 +19,7 @@ gem 'puma', '~> 3.11'
 #user authentication
 gem 'devise'
 gem 'devise_token_auth'
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
