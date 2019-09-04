@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  userId: 1
+  description: MyString
+  type: 
+  longitude: 1
+  latitude: 1
+  status: MyString
+  volunteerCount: 1
+
+two:
+  userId: 1
+  description: MyString
+  type: 
+  longitude: 1
+  latitude: 1
+  status: MyString
+  volunteerCount: 1
