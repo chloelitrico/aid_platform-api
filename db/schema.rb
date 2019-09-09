@@ -16,13 +16,13 @@ ActiveRecord::Schema.define(version: 2019_09_04_190447) do
   enable_extension "plpgsql"
 
   create_table "requests", force: :cascade do |t|
-    t.integer "userId"
+    t.integer "user_id"
     t.string "description"
-    t.string "type"
+    t.string "request_type"
     t.integer "longitude"
     t.integer "latitude"
     t.string "status"
-    t.integer "volunteerCount"
+    t.integer "volunteer_count"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
