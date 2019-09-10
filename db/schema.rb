@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2019_09_10_141057) do
   create_table "requests", force: :cascade do |t|
     t.string "description"
     t.string "request_type"
-    t.integer "longitude"
-    t.integer "latitude"
+    t.float "longitude"
+    t.float "latitude"
     t.string "status"
     t.integer "volunteer_count"
     t.datetime "created_at", null: false
