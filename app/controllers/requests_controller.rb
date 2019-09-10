@@ -16,7 +16,8 @@ class RequestsController < ApplicationController
 
   # POST /requests
   def create
-    @request = Request.new(request_params)
+    @request = Request.create(request_params.merge(user_id: current_user.id))
+    # @request = Request.new(request_params)
 
     if @request.save
       render json: @request, status: :created, location: @request
