@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2019_09_04_190447) do
   enable_extension "plpgsql"
 
   create_table "requests", force: :cascade do |t|
-    t.integer "user_id"
     t.string "description"
     t.string "request_type"
     t.integer "longitude"
